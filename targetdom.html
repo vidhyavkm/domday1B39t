@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            color:aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar">
+            <div class="navheading">Home</div>
+            <div class="navheading">Home1</div>
+            <div class="navheading">Home2</div>
+            <div class="navheading">Home3</div>
+            <div class="navheading" id="navbar1">Home4</div>
+
+            <button>Submit</button>
+            <p>this is a p tag</p>
+        </div>
+    </div>
+
+    <script>
+        var dom = document.getElementById('navbar1').innerText
+        console.log(dom)
+
+        var dom1 = document.getElementById('navbar').innerText
+        console.log(dom1)
+
+        var dom2 = document.getElementsByClassName('container')
+        console.log(dom2)
+
+        var dom3 = document.getElementsByClassName('navheading').innerText
+        console.log(dom3)
+
+        var dom4 = document.getElementsByTagName('button')
+        console.log(dom4)
+
+        var dom5 = document.getElementsByTagName('div')
+        console.log(dom5)
+
+        var dom6 = document.getElementsByTagName('p')
+        console.log(dom6)
+
+
+        
+    </script>
+
+</body>
+</html>

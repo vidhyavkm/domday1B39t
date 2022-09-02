@@ -1,0 +1,51 @@
+What is DOM=> document object model
+writing all the codes in js file along with html tags.
+it has some inbuilt properties.
+
+how to create elements dynamically?
+
+createelement=> used to create a html element inside a body tag using DOM.
+
+Setattributes=> to create class and id dynamically ,we use this.
+syntax=> Setattribute('attributename','selectorname')
+
+classlist=> we can create multiple classes
+syntax: .classlist.add(multiple classesnames)
+
+target dom:
+design or code => getelementbyid, getelementbyclassname, getelementbytagname
+.getelementbyid(name)
+.getelementbyclassname(name)
+.getelementbytagname(name)
+
+innertext & innerhtml
+
+text/content=> if we pass tag inside it , it will consider as text & text+tag => entire element=> it will print only the text onside the element.
+we cant inset html tags & we can insert tags
+it retrieves and sets the content in plain text & it retrieves and sets th content in html format
+
+how to put e;element inside e;ements=> 2 ways 
+
+append vs appendchild
+
+by using append , we can add multiple number of elemnts in the document
+vs
+by using appendchild, we can append only one elemnt(preferably first one) in the document
+
+we can use append, wr we can use appendchild , but cannot do viceversa.
+
+Queryselector vs queryselectorall
+
+returns the first elemtn within the document, if there is multiple elements , 
+then it returns onlt the first element.
+
+vs 
+
+it returns all the elemtns within the document.
+
+syntax=> .queryselector(attribute)
+
+mostly used for selecting classname.
+
+
+
